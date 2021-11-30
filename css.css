@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(173, 55, 50);
+    color: white;
+    font-family: monospace;
+  }
+audio {
+    margin: 30px auto;
+  }
+  .blinking{
+    animation: blinkingText .6s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #ffffff;    }
+    49%{    color: #ffffff; }
+    60%{    color: transparent; }
+    99%{    color: transparent;  }
+    100%{   color: #ffffff;    }
+}
+a {
+  color: white;
+}
